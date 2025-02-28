@@ -1,7 +1,7 @@
 <template>
   <!-- 我是小寶箱 w-5/12 h-2/3-->
   <div class=" w-full h-full rounded-3xl overflow-hidden flex shadow-2xl">
-    <!-- 右邊的loggin -->
+    <!-- 左邊的loggin -->
     <div class="w-full h-full pt-[88px] bg-gray-300">
       <!-- 包裹箱 -->
       <div class="w-full h-full  flex flex-col items-center">
@@ -25,19 +25,19 @@
           <li class="w-10 h-10 bg-slate-200 rounded-lg"></li>
           <li class="w-10 h-10 bg-slate-200 rounded-lg"></li>
         </ul>
-        <button class=" w-52 h-10 bg-orange-300 mt-5 rounded-xl hover:bg-orange-400">login</button>
+        <button class="btn w-52 h-10 bg-orange-300 mt-5 rounded-xl hover:bg-orange-400 ">register</button>
       </div>
     </div>
-    <!-- 左邊的switch -->
+    <!-- 右邊的switch -->
     <div class=" min-w-[400px] h-full pt-24 bg-gray-100">
       <!-- 包裹箱 -->
       <div class="w-full h-full flex flex-col items-center ">
         <p class="text-2xl pb-16">welcome to Lumani</p>
         <p class="pb-3">want to login?</p>
         <button @click="$router.replace({ name: 'login' })" class="text-2xl text-orange-400  py-3 px-5 mb-[155px] border-2 border-orange-400 rounded-xl 
-              hover:bg-orange-400 hover:text-white">Login</button>
+              hover:bg-orange-400 hover:text-white transition-colors duration-300">Login</button>
         <img src="@/assets/images/LominaLogo_B.png" alt="" class="">
-        <p class="text-xs mt-2 text-gray-500">© 20251 Lumina, Inc. 版權所有</p>
+        <p class="text-xs mt-2 text-gray-500">© 2025 Lumina, Inc. 版權所有</p>
       </div>
     </div>
 
