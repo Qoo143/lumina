@@ -37,7 +37,7 @@
         <button @click="$router.replace({ name: 'login' })" class="text-2xl text-orange-400  py-3 px-5 mb-[155px] border-2 border-orange-400 rounded-xl 
               hover:bg-orange-400 hover:text-white">Login</button>
         <img src="@/assets/images/LominaLogo_B.png" alt="" class="">
-        <p class="text-xs mt-2 text-gray-500">© 2025 Lumina, Inc. 版權所有</p>
+        <p class="text-xs mt-2 text-gray-500">© 20251 Lumina, Inc. 版權所有</p>
       </div>
     </div>
 
