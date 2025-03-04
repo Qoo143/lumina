@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 @layer components {
+  /* --------------------<< 漸層按鈕 >>-------------------- */
   .btn {
     position: relative;
   }
@@ -29,5 +30,9 @@
     background: linear-gradient(to right, #fecaca, #fef08a);
     opacity: 1;
     border-radius: 12px;
+  }
+  /* --------------------<< 卡片 >>-------------------- */
+  .flowCard {
+    @apply p-2 w-40 h-auto float-left;
   }
 }
